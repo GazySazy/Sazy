@@ -1049,7 +1049,7 @@ body.nav-active { overflow: hidden; }
 
 .menu-card {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 20px;
 }
 
@@ -1586,7 +1586,7 @@ textarea.input-field {
     position: relative;
   }
 
-  .menu-card .span::before {
+  .menu-card .span::after {
     content: "";
     height: 6px;
     flex-grow: 1;
