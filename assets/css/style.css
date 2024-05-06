@@ -986,23 +986,7 @@ body.nav-active { overflow: hidden; }
   overflow: hidden;
 }
 
-.about .abs-img-1::before {
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 140px;
-  background-image: url('../images/img-pattern.svg');
-  background-repeat: repeat;
-}
 
-.about .abs-img-2::before {
-  inset: 0;
-  background-image: url('../images/badge-2-bg.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  animation: rotate360 15s linear infinite;
-}
 
 
 
@@ -1858,7 +1842,7 @@ textarea.input-field {
 
   .special-dish .abs-img {
     position: absolute;
-    top: 10px;
+    top: 0px;
     left: -40px;
     animation: move 5s linear infinite;
   }
