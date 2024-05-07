@@ -21,6 +21,7 @@
    */
 
   --gold-crayola: hsl(38, 61%, 73%);
+  --gold-crayola-b: hsl(60, 20%, 1%);
   --quick-silver: hsla(0, 0%, 65%, 1);
   --davys-grey: hsla(30, 3%, 34%, 1);
   --smoky-black-1: hsla(40, 12%, 5%, 1);
@@ -1051,7 +1052,7 @@ padding: 10px ;
   gap: 10px;
 }
 
-.hover\:card .card-banner { background-color: var(--gold-crayola); }
+.hover\:card .card-banner { background-color: var(--gold-crayola-b); }
 
 .hover\:card .card-banner .img-cover { transition: var(--transition-2); }
 
@@ -1071,10 +1072,10 @@ padding: 10px ;
 ;transition: var(--transition-1); }
 
 .menu-card .card-title:is(:hover, :focus-visible) { text-justify: auto;
- ;color: var(--gold-crayola); }
+ ;color: var(--gold-crayola-b); }
 
 .menu-card .badge {
-  background-color: var(--gold-crayola);
+  background-color: var(--gold-crayola-b);
   color: var(--eerie-black-1);
   font-family: var(--fontFamily-forum);
   max-width: max-content;
@@ -1085,7 +1086,9 @@ padding: 10px ;
   
 
 }
-
+/*-----------------------------------*\
+  #Menu text
+\*-----------------------------------*/
 .menu-card .span {
   
   color: var(--gold-crayola);
@@ -1102,7 +1105,7 @@ padding: 10px ;
 
 .menu-text .span {
 
-  color: var(--gold-crayola);
+  color: var(--gold-crayola-b);
 }
 
 .menu .btn {
