@@ -195,7 +195,7 @@ body.nav-active { overflow: hidden; }
 
 ::-webkit-scrollbar-track { background-color: transparent; }
 
-::-webkit-scrollbar-thumb { background-color: var(--gold-crayola); }
+::-webkit-scrollbar-thumb { background-color: var(--gold-crayola-b); }
 
 
 
@@ -269,7 +269,7 @@ body.nav-active { overflow: hidden; }
 .separator {
   width: 8px;
   height: 8px;
-  border: 1px solid var(--gold-crayola);
+  border: 1px solid var(--gold-crayola-b);
   transform: rotate(45deg);
 }
 
@@ -293,7 +293,7 @@ body.nav-active { overflow: hidden; }
   bottom: 0;
   width: 100%;
   height: 5px;
-  border-block: 1px solid var(--gold-crayola);
+  border-block: 1px solid var(--gold-crayola-b);
   transform: scaleX(0.2);
   opacity: 0;
   transition: var(--transition-2);
@@ -316,7 +316,7 @@ body.nav-active { overflow: hidden; }
 
 .section-subtitle {
   position: relative;
-  color: var(--gold-crayola);
+  color: var(--gold-crayola-b);
   font-weight: var(--weight-bold);
   text-transform: uppercase;
   letter-spacing: var(--letterSpacing-2);
@@ -489,7 +489,7 @@ body.nav-active { overflow: hidden; }
 
 .input-field::placeholder { color: inherit; }
 
-.input-field:focus { border-color: var(--gold-crayola); }
+.input-field:focus { border-color: var(--gold-crayola-b); }
 
 .icon-wrapper {
   position: relative;
@@ -689,7 +689,7 @@ body.nav-active { overflow: hidden; }
 
 .navbar .close-btn ion-icon { --ionicon-stroke-width: 40px; }
 
-.navbar .close-btn:is(:hover, :focus-visible) { color: var(--gold-crayola); }
+.navbar .close-btn:is(:hover, :focus-visible) { color: var(--gold-crayola-b); }
 
 .navbar .logo {
   max-width: max-content;
@@ -717,7 +717,7 @@ body.nav-active { overflow: hidden; }
 .navbar-link .span { transition: var(--transition-1); }
 
 .navbar-link:is(:hover, :focus-visible, .active) .span {
-  color: var(--gold-crayola);
+  color: var(--gold-crayola-b);
   transform: translateX(20px);
 }
 
@@ -740,7 +740,7 @@ body.nav-active { overflow: hidden; }
 
 .sidebar-link { transition: var(--transition-1); }
 
-.sidebar-link:is(:hover, :focus-visible) { color: var(--gold-crayola); }
+.sidebar-link:is(:hover, :focus-visible) { color: var(--gold-crayola-b); }
 
 .navbar .text-center .separator {
   margin-block: 30px;
@@ -1165,7 +1165,7 @@ padding: 10px ;
 }
 
 .testi .profile-name {
-  color: var(--gold-crayola);
+  color: var(--gold-crayola-b);
   font-weight: var(--weight-bold);
   text-transform: uppercase;
   letter-spacing: var(--letterSpacing-3);
@@ -1185,7 +1185,7 @@ padding: 10px ;
 
 .form-text .link {
   display: inline;
-  color: var(--gold-crayola);
+  color: var(--gold-crayola-b);
 }
 
 .form-right .headline-1 { margin-block-end: 40px; }
@@ -1287,7 +1287,7 @@ textarea.input-field {
   top: 30px;
   left: 25px;
   padding: 5px 10px;
-  color: var(--gold-crayola);
+  color: var(--gold-crayola-b);
   background-color: var(--black);
   font-weight: var(--weight-bold);
   letter-spacing: var(--letterSpacing-1);
@@ -1295,7 +1295,7 @@ textarea.input-field {
 }
 
 .event-card .card-subtitle {
-  color: var(--gold-crayola);
+  color: var(--gold-crayola-b);
   text-transform: uppercase;
   font-weight: var(--weight-bold);
   letter-spacing: var(--letterSpacing-2);
@@ -1357,7 +1357,7 @@ textarea.input-field {
   transition: var(--transition-1);
 }
 
-.footer-brand .contact-link:is(:hover, :focus-visible) { color: var(--gold-crayola); }
+.footer-brand .contact-link:is(:hover, :focus-visible) { color: var(--gold-crayola-b); }
 
 .footer-brand .wrapper {
   display: flex;
@@ -1394,7 +1394,7 @@ textarea.input-field {
   transition: var(--transition-1);
 }
 
-.footer-link:is(:hover, :focus-visible) { color: var(--gold-crayola); }
+.footer-link:is(:hover, :focus-visible) { color: var(--gold-crayola-b); }
 
 .copyright {
   color: var(--quick-silver);
@@ -1403,7 +1403,7 @@ textarea.input-field {
 
 .copyright .link {
   display: inline;
-  color: var(--gold-crayola);
+  color: var(--gold-crayola-b);
   text-decoration: underline;
 }
 
@@ -1436,7 +1436,7 @@ textarea.input-field {
 
 .back-top-btn:is(:hover, :focus-visible) {
   background-color: var(--white);
-  color: var(--gold-crayola);
+  color: var(--gold-crayola-b);
 }
 
 .back-top-btn.active {
@@ -1527,7 +1527,7 @@ textarea.input-field {
 
   .topbar .link { transition: var(--transition-1); }
 
-  .topbar .link:is(:hover, :focus-visible) { color: var(--gold-crayola); }
+  .topbar .link:is(:hover, :focus-visible) { color: var(--gold-crayola-b); }
 
 
 
@@ -1696,9 +1696,9 @@ textarea.input-field {
     display: grid;
     position: absolute;
     z-index: 1;
-    color: var(--gold-crayola);
+    color: var(--gold-crayola-b);
     font-size: 2.4rem;
-    border: 1px solid var(--gold-crayola);
+    border: 1px solid var(--gold-crayola-b);
     width: 45px;
     height: 45px;
     place-items: center;
@@ -1714,7 +1714,7 @@ textarea.input-field {
   .hero .slider-btn.next { right: 30px; }
 
   .hero .slider-btn:is(:hover, :focus-visible) {
-    background-color: var(--gold-crayola);
+    background-color: var(--gold-crayola-b);
     color: var(--black);
   }
 
